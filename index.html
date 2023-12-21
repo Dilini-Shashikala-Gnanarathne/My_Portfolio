@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e9fbf603fd.js" crossorigin="anonymous"></script>
+	<title>My portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header">
+		<div class="container">
+			<nav>
+				<img src="images/logo.png">
+				<ul>				
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>				
+					<li><a href="#">Services</a></li>				
+					<li><a href="#">Portfolio</a></li>				
+					<li><a href="#">Contact</a></li>
+			</ul>
+			</nav>
+			<div class="header_Text">
+				<p>Software Engineer | Fullstack Developer | Mobile App Developer</p>
+			<h1>Hi, I'm Dilini <span> <br>Shashikala </span>from Sri Lanka</h1>
+			</div>
+		</div>
+	</div>
+	<!------------..........About section.................----------->
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="about-r-1">
+					<img src="images/user.png">
+				</div>
+				<div class="about-r-2"><h1 class="SubTitle">About Me</h1>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam fugiat est ipsa omnis laboriosam facilis, accusantium provident natus reiciendis nesciunt voluptates facere molestiae nisi quas, labore saepe adipisci maxime 
+					explicabo!</p>
+				<div class="tabTitle">
+					<p class="tab_links active-link" onclick="opentab('skills')">Skills</p>
+					<p class="tab_links" onclick="opentab('experience')">Experience</p>
+					<p class="tab_links" onclick="opentab('education')">Education</p>
+				</div>
+				<div class="tab-contents active-tab" id="skills">
+					<ul>
+						<li><span>ui/ux</span><br>Designing web interfaces</li>
+						<li><span>Web Development</span><br>Web app development</li>
+						<li><span>App Development</span><br>Building Android/iOS apps</li>
+
+					</ul>
+				</div>
+				<div class="tab-contents" id="experience">
+					<ul>
+						<li><span>2ui/ux</span><br>Designing web interfaces</li>
+						<li><span>Web Development</span><br>Web app development</li>
+						<li><span>App Development</span><br>Building Android/iOS apps</li>
+
+					</ul>
+				</div><div class="tab-contents" id="education">
+					<ul>
+						<li><span>3ui/ux</span><br>Designing web interfaces</li>
+						<li><span>Web Development</span><br>Web app development</li>
+						<li><span>App Development</span><br>Building Android/iOS apps</li>
+
+					</ul>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--------------------Services------------------------------->
+<div id="services">
+	<div class="container">
+		<h1 class="SubTitle">My Services</h1>
+		<div class="services-list">
+			<div><i class="fa-solid fa-code"></i>
+				<h2>WEb Design</h2>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+					Dicta autem mollitia dolorem quis repellendus deleniti 
+					assumenda inventore! Modi, excepturi mollitia exercitationem 
+					perferendis,
+					 reprehenderit blanditiis ipsam illo deserunt tempore
+					  cupiditate delectus?</p>
+					  <a href="#">Learn more</a>
+			</div>
+			<div>
+				<i class="fa-solid fa-crop"></i>
+				<h2>WEb Design</h2>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+					Dicta autem mollitia dolorem quis repellendus deleniti 
+					assumenda inventore! Modi, excepturi mollitia exercitationem 
+					perferendis,
+					 reprehenderit blanditiis ipsam illo deserunt tempore
+					  cupiditate delectus?</p>
+					  <a href="#">Learn more</a>
+			</div>
+			<div>
+				<i class="fa-brands fa-app-store-ios"></i>
+				<h2>WEb Design</h2>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+					Dicta autem mollitia dolorem quis repellendus deleniti 
+					assumenda inventore! Modi, excepturi mollitia exercitationem 
+					perferendis,
+					 reprehenderit blanditiis ipsam illo deserunt tempore
+					  cupiditate delectus?</p>
+					  <a href="#">Learn more</a>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
+
+<!---------------------portpolio------------>
+<div id="portfolio">
+	<div class="container">
+		<h1 class="SubTitle">My Portfolio</h1>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var tablinks=document.getElementsByClassName("tab_links");
+var tabcontents=document.getElementsByClassName("tab-contents");
+function opentab(tabname) {
+	for (tablink of tablinks) {
+		tablink.classList.remove("active-link");
+		
+	}
+	for (tabcontent of tabcontents ) {
+		tabcontent.classList.remove("active-tab");
+	}
+	event.currentTarget.classList.add("active-link");
+	document.getElementById(tabname).classList.add("active-tab")
+}
+
+
+</script>
+
+
+
+</body>
+</html>
