@@ -12,13 +12,15 @@
 		<div class="container">
 			<nav>
 				<img src="images/logo.png">
-				<ul>				
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>				
-					<li><a href="#">Services</a></li>				
-					<li><a href="#">Portfolio</a></li>				
-					<li><a href="#">Contact</a></li>
+				<ul id="sidemenu">				
+					<li><a href="header">Home</a></li>
+					<li><a href="about">About</a></li>				
+					<li><a href="services">Services</a></li>				
+					<li><a href="portfolio">Portfolio</a></li>				
+					<li><a href="contact">Contact</a></li>
+					<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
 			</ul>
+			<i class="fa-solid fa-bars" onclick="openmenu()"></i>
 			</nav>
 			<div class="header_Text">
 				<p>Software Engineer | Fullstack Developer | Mobile App Developer</p>
@@ -114,11 +116,89 @@
 <div id="portfolio">
 	<div class="container">
 		<h1 class="SubTitle">My Portfolio</h1>
+		<div class="workList">
+			<div class="work">
+				<img src="images/work-1.png">
+				<div class="layer">
+					<h3>
+						Social Media App
+					</h3>
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed ex, recusandae ratione repudiandae libero maxime atque praesentium debitis! In mollitia quas, quia ullam eveniet dignissimos animi saepe? Molestias, vitae laudantium.
+					</p>
+					<a href="#">
+						<i class="">//limk eka daaanna</i>
+					</a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/work-2.png">
+				<div class="layer">
+					<h3>
+						Social Media App
+					</h3>
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed ex, recusandae ratione repudiandae libero maxime atque praesentium debitis! In mollitia quas, quia ullam eveniet dignissimos animi saepe? Molestias, vitae laudantium.
+					</p>
+					<a href="#">
+						<i class="">//limk eka daaanna</i>
+					</a>
+				</div>
+
+			</div>
+
+			<div class="work">
+				<img src="images/work-3.png">
+				<div class="layer">
+					<h3>
+						Social Media App
+					</h3>
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed ex, recusandae ratione repudiandae libero maxime atque praesentium debitis! In mollitia quas, quia ullam eveniet dignissimos animi saepe? Molestias, vitae laudantium.
+					</p>
+					<a href="#">
+						<i class="">//limk eka daaanna</i>
+					</a>
+				</div>
+
+			</div>
+
+		</div>
+		<a href="#" class="btn">Seee more</a>
 	</div>
 </div>
 
 
-
+<!---------------------------Contact-->
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="SubTitle">Contact Me</h1>
+				<p><!-------email icon--><i class="fa-solid fa-envelope"></i>shashikaladilini11@gmail.com</p>
+				<p><!--phone icon---------><i class="fa-solid fa-phone"></i>0779094462</p>
+				<div class="socilMedia">
+					<a href="#"><i class="fa-brands fa-facebook"></i></a><!---------------Methn link eka add krnn social media & icon tikai-->
+					<a href="#"><i class="fa-brands fa-linkedin"></i></a><!---------------Methn link eka add krnn social media & icon tikai-->
+					<a href="#"><i class="fa-brands fa-github"></i></a><!---------------Methn link eka add krnn social media & icon tikai-->
+					<a href="#"><i class="fa-brands fa-whatsapp"></i></a><!---------------Methn link eka add krnn social media & icon tikai-->
+				</div>
+				<a href="images/my-cv.pdf" class="btn btn2">Download CV</a>
+			</div>
+			<div class="contact-right">
+				<form>
+					<input type="text" name="Name" placeholder="Your Name" required>
+					<input type="email" name="Email" placeholder="Your Email" required>
+					<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+					<button type="submit" class="btn btn2">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>Copy right /copy <i>Heart icon</i></p>
+	</div>
+</div>
 
 
 
@@ -160,7 +240,18 @@ function opentab(tabname) {
 
 </script>
 
+<script>
+	var sidemenu= document.getElementById('sidemenu');
 
+	function openmenu() {
+		sidemenu.style.right = "0";
+
+	}
+	function closemenu() {
+		sidemenu.style.right = "-200px";
+		
+	}
+</script>
 
 </body>
 </html>
