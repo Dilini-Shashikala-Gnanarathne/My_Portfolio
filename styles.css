@@ -51,7 +51,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #220663;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -71,7 +71,7 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header_Text h1 span{
-    color: #ff004f;
+    color: #220663;
 }
 
 
@@ -119,7 +119,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #220663;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -183,7 +183,7 @@ nav ul li a:hover::after{
     display: inline-block;
 }
 .services-list div:hover{
-background: #ff004f;
+background: #220663;
 transform: translateY(-10px);
 }
 
@@ -225,7 +225,7 @@ transform: translateY(-10px);
     width: 100%;
   /***  height: 100%;***/
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6),#220663);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -247,7 +247,7 @@ transform: translateY(-10px);
 }
 .layer a{
     margin-top: 20px;
-    color: #ff004f;
+    color: #220663;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -268,7 +268,7 @@ transform: translateY(-10px);
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #220663;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -276,7 +276,7 @@ transform: translateY(-10px);
     transition: background 0.5s ;
 }
 .btn:hover{
-    background: #ff004f;
+    background: #220663;
 }
 
 
@@ -295,7 +295,7 @@ transform: translateY(-10px);
 }
 
 .contact-left p i{
-    color: #ff004f;
+    color: #220663;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -308,18 +308,18 @@ transform: translateY(-10px);
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    columns: #ababab;
+    color: #ababab;
     display: inline-block;
     transition: transform 0.5s;
 }
 
 .socilMedia a:hover{
-    color: #ff004f;
+    color: #220663;
     transform: translateY(-5px);
 }
 .btn.btn2{
     display: inline-block;
-    background: #ff004f;
+    background: #220663;
 }
 
 .contact-right form{
@@ -337,7 +337,7 @@ form input, form textarea{
     border-radius: 6px;
 }
 
-form btn2{
+form .btn2{
     padding: 14px 60px;
     font-size: 18px;
     margin-top: 20px;
@@ -346,17 +346,17 @@ form btn2{
 .copyright{
     width: 100%;
     text-align: center;
-    padding: 250px 0;
+    padding: 25px 0;
     background: #262626;
     font-weight: 300;
     margin-top: 20px;;
     
 }
 .copyright i{
-    color: #ff004f;
+    color: #220663;
 }
 
-nav .fa{
+nav .fa-solid{
     display: none;
 }
 
@@ -373,12 +373,12 @@ nav .fa{
     .header_Text h1{
         font-size: 30px;
     }
-    nav .fa{
+    nav .fa-solid{
         display: block;
         font-size: 25px;
     }
     nav ul {
-        background: #ff004f;
+        background: #220663;
         position: fixed;
         top: 0;
         right: -200px;
@@ -392,14 +392,14 @@ nav .fa{
         display: block;
         margin: 25px;
     }
-    nav ul .fa{
+    nav ul .fa-solid{
         position: absolute;
         top: 25px;
         left: 25px;
         cursor: pointer;
     }
     .SubTitle{
-        font-size: 14px;
+        font-size: 40px;
     }
     .about-r-1, .about-r-2{
         flex-basis: 100%;
