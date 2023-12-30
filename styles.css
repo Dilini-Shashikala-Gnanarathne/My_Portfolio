@@ -296,20 +296,12 @@ transform: translateY(-10px);
 
 
 #header {
-    /* your existing styles */
-
-    /* Add or modify the following properties */
     padding-bottom: 1px; /* Adjust this value to reduce the gap */
 }
 
 #about {
-    /* your existing styles */
-
-    /* Add or modify the following properties */
     padding-top:1px; /* Adjust this value to reduce the gap */
 }
-
-
 
 /*------------Contact-------------------*/
 .contact-left{
@@ -452,7 +444,7 @@ nav .fa-solid{
 }
 
 #msg{
-    color: #220663;
+    color: #4c12d2;
     margin-top: -40px;
     display: block;
 }
