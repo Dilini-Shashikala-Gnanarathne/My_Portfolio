@@ -4,9 +4,6 @@
     font-family: 'Proxima Nova', 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
-
-/* ... (rest of your CSS code) ... */
-
 html{
     scroll-behavior: smooth;
 }
@@ -47,8 +44,6 @@ nav ul li a{
     font-size: 18px;
     position: relative;
 }
-
-
 nav ul li a::after{
     content: '';
     width: 0;
@@ -80,16 +75,16 @@ nav ul li a:hover::after{
 .header_Text  p{
     color:#4918bb;
 }
-
-
 #topRightImage {
     position: absolute;
-    top: 250px; /* Adjust the top distance as needed */
-    right: 10px; /* Adjust the right distance as needed */
-    width: 500px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    top: 250px; 
+    right: 10px; 
+    width: 500px; 
+    height: auto; 
     margin-bottom: 0px;
 }
+
+
 /*------------------about----------------*/
 #about{
     padding: 80px 0;
@@ -123,6 +118,9 @@ nav ul li a:hover::after{
     margin: 20px 0 40px;
 
 }
+.tabTitle p{
+    font-size: 25px;
+}
 .tab_links{
     margin-right: 50px;
     font-size: 18px;
@@ -149,7 +147,7 @@ nav ul li a:hover::after{
 }
 .tab-contents ul li span{
     color:#4918bb;
-    font-size: 16px;
+    font-size: 20px;
 
 }
 
@@ -160,6 +158,8 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
+
+
 /*---------------service----------------*/
 #services{
     padding: 30px 0;
@@ -191,9 +191,73 @@ nav ul li a:hover::after{
     display: inline-block;
 }
 
+.package {
+    background-image: linear-gradient(163deg, #17eaed 0%, #3700ff 100%);
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.25s cubic-bezier(0, 0, 0, 1);
+  }
+  
+  .package:hover {
+    box-shadow: 0px 0px 30px 1px rgba(204, 0, 255, 0.3);
+  }
+  
+  .package2 {
+    background-color: #1d1724;
+    border-radius: 10px;
+    transition: all 0.25s cubic-bezier(0, 0, 0, 1);
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .package2:hover {
+    transform: scale(0.98);
+    border-radius: 18px;
+  }
+  
+  .text {
+    color: white;
+    font-size: 17px;
+  }
 
-
-
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 15px;
+    background-color: #181717;
+    outline: 3px #181717 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+    margin-left: 35%;
+  }
+  
+  .button .text {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+  }
+  
+  .button svg path {
+    transition: 400ms;
+  }
+  
+  .button:hover {
+    background-color: transparent;
+  }
+  
+  .button:hover .text {
+    color: #3941e3;
+  }
+  
+  .button:hover svg path {
+    fill: #3941e3;
+  }
 
 
 
@@ -227,7 +291,7 @@ nav ul li a:hover::after{
     width: 100%;
   /***  height: 100%;***/
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6),#4719b1);
+    background: linear-gradient(rgba(0,0,0,0.6),#3700ff);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -278,7 +342,7 @@ nav ul li a:hover::after{
     transition: background 0.5s ;
 }
 .btn:hover{
-    background: #220663;
+    background: #3700ff;
 }
 
 
@@ -326,7 +390,7 @@ nav ul li a:hover::after{
 }
 .btn.btn2{
     display: inline-block;
-    background: #220663;
+    background: #3700ff;
 }
 
 .contact-right form{
@@ -439,8 +503,8 @@ nav .fa-solid{
 
 .spinner {
     background-image: linear-gradient(rgb(186, 66, 255) 35%,rgb(0, 225, 255));
-    width: 100px;
-    height: 100px;
+    width: 25px;
+    height: 25px;
     animation: spinning82341 1.7s linear infinite;
     text-align: center;
     border-radius: 50px;
@@ -450,8 +514,8 @@ nav .fa-solid{
   
   .spinner1 {
     background-color: rgb(36, 36, 36);
-    width: 100px;
-    height: 100px;
+    width: 25px;
+    height: 25px;
     border-radius: 50px;
     filter: blur(10px);
   }
@@ -467,32 +531,5 @@ nav .fa-solid{
 
    
 
-   .package {
-    background-image: linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
-    border-radius: 20px;
-    text-align: center;
-    transition: all 0.25s cubic-bezier(0, 0, 0, 1);
-  }
-  
-  .package:hover {
-    box-shadow: 0px 0px 30px 1px rgba(204, 0, 255, 0.3);
-  }
-  
-  .package2 {
-    background-color: #1d1724;
-    border-radius: 10px;
-    transition: all 0.25s cubic-bezier(0, 0, 0, 1);
-    padding: 15px;
-    cursor: pointer;
-  }
-  
-  .package2:hover {
-    transform: scale(0.98);
-    border-radius: 18px;
-  }
-  
-  .text {
-    color: white;
-    font-size: 17px;
-  }
+
   
