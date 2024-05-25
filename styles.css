@@ -72,8 +72,9 @@ nav ul li a:hover::after{
     font-size: 50px;
     
 }
-.header_Text  p{
+.word{
     color:#4918bb;
+
 }
 #topRightImage {
     position: absolute;
