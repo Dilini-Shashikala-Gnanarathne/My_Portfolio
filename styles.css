@@ -171,14 +171,7 @@ nav ul li a:hover::after{
     grid-gap: 40px;
     margin-top: 50px;
 }
-.services-list div{
-    background: #484646;
-    padding: 40px;
-    font-size: 13px;
-    font-weight: 300;
-    border-radius: 10px;
-    transition: background 0.5s, transform o.5s;
-}
+
 .services-list div i{
     font-size: 50px;
     margin-bottom: 30px
@@ -197,12 +190,6 @@ nav ul li a:hover::after{
     margin-top: 20px;
     display: inline-block;
 }
-.services-list div:hover{
-background: #220663;
-transform: translateY(-10px);
-}
-
-
 
 
 
@@ -448,3 +435,64 @@ nav .fa-solid{
     margin-top: -40px;
     display: block;
 }
+
+
+.spinner {
+    background-image: linear-gradient(rgb(186, 66, 255) 35%,rgb(0, 225, 255));
+    width: 100px;
+    height: 100px;
+    animation: spinning82341 1.7s linear infinite;
+    text-align: center;
+    border-radius: 50px;
+    filter: blur(1px);
+    box-shadow: 0px -5px 20px 0px rgb(186, 66, 255), 0px 5px 20px 0px rgb(0, 225, 255);
+  }
+  
+  .spinner1 {
+    background-color: rgb(36, 36, 36);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    filter: blur(10px);
+  }
+  
+  @keyframes spinning82341 {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+ 
+
+   
+
+   .package {
+    background-image: linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.25s cubic-bezier(0, 0, 0, 1);
+  }
+  
+  .package:hover {
+    box-shadow: 0px 0px 30px 1px rgba(204, 0, 255, 0.3);
+  }
+  
+  .package2 {
+    background-color: #1d1724;
+    border-radius: 10px;
+    transition: all 0.25s cubic-bezier(0, 0, 0, 1);
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .package2:hover {
+    transform: scale(0.98);
+    border-radius: 18px;
+  }
+  
+  .text {
+    color: white;
+    font-size: 17px;
+  }
+  
